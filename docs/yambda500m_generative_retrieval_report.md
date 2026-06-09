@@ -58,7 +58,7 @@ TIGER (Rajput et al., NeurIPS 2023) предлагает заменить ско
 1. Воспроизведение TIGER с RQ-VAE и dedup на полном корпусе.
 2. Сравнение токенайзеров RQ-KMeans и RQ-OPQ при том же decoder.
 3. Диагностика влияния dedup-колонки и протокола filter_seen.
-4. Сравнение с SASRec и popularity на едином eval-протоколе.
+4. Сравнение с SASRec на едином eval-протоколе.
 5. Три стратегии снижения коллизий поверх лучшего токенайзера (RQ-OPQ): HaMR, popularity-ordered dedup, RRS.
 
 ---
