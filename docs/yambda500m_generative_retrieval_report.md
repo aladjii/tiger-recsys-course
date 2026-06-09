@@ -49,7 +49,7 @@ TIGER (Rajput et al., NeurIPS 2023) предлагает заменить ско
 
 ### 3.3. Бейзлайн
 
-**SASRec** — item-ID sequential model, обученная на тех же последовательностях. Дополнительно: popularity baseline (лучший час дня).
+**SASRec** — item-ID sequential model, обученная на тех же последовательностях.
 
 ---
 
@@ -73,9 +73,8 @@ TIGER (Rajput et al., NeurIPS 2023) предлагает заменить ско
 | RQ-OPQ + TIGER | 0.0226 | 0.1503 | 0.0265 | 0.3054 |
 | RQ-KMeans + TIGER | 0.0211 | 0.1417 | 0.0225 | 0.2793 |
 | RQ-VAE + TIGER | 0.0211 | 0.1406 | 0.0201 | 0.2554 |
-| Popularity | 0.0260 | 0.1498 | 0.0361 | 0.3060 |
 
-RQ-OPQ — однозначный лидер среди токенайзеров (+7% Recall@10 к RQ-VAE). RQ-KMeans не превосходит RQ-VAE по ranking-метрикам. **SASRec остаётся сильнее** generative retrieval по Recall@10 и NDCG@10. Popularity конкурентен по Recall@10, но проигрывает по NDCG@50 — персонализация TIGER/OPQ работает на длинных списках.
+RQ-OPQ — однозначный лидер среди токенайзеров (+7% Recall@10 к RQ-VAE). RQ-KMeans не превосходит RQ-VAE по ranking-метрикам. **SASRec остаётся сильнее** generative retrieval по Recall@10 и NDCG@10.
 
 ### 5.2. Коллизии Semantic ID
 
